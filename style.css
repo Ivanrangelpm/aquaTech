@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Verdana;
-    background-color: black;
+    background-color: white;
 }
 
 .header{
@@ -30,4 +30,37 @@ body {
     justify-content: space-between;
     color: #e3b062;
     align-items: center;
+}
+
+.banner{
+    padding: 40px 0;
+    color: white;
+    background-image: url('imagens/bg-jelly-fish-para_outras_pags.png');
+    height: 400px;
+}
+
+.banner .container {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+
+.banner .container p{
+    font-size: 36px;
+
+}
+
+.banner .container p span{
+    font-weight: bold;
+    color: #32b9cd;
+}
+
+.card{
+    width: 150px;
+
+}
+
+.card img{
+    width: 100px;
 }
