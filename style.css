@@ -59,13 +59,19 @@ body {
 
 .social{
     padding: 40px;
+    justify-content: space-around;
 }
+
+
 
 .card{
     width: 150px;
 
 }
-
 .card img{
     width: 100px;
+}
+
+.social{
+    display: flex;
 }
