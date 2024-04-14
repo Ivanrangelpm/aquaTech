@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>AquaTech | Login</title>
+    <title>aquaTech | Cadastro</title>
 </head>
 <body>
     <div class="header">
@@ -14,23 +14,30 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li>Simulador</li>
                 <li>|</li>
-                <li class="agora">Login</li>
-                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li class="agora">Cadastro</li>
             </ul>
         </div>
     </div>
-
     <div class="login">
         <div class="container">
-            <div class="cartao">
-                <h2>Olá de volta!</h2>
+            <div class="cartao cartao_cadastro">
+                <h2>Bem vindo!</h2>
                 <div class="formulario">
                     <div class="campo">
-                        <label for="">Email</label>
-                        <input type="text" placeholder="Digite seu email" name="" id="">
+                        <label for="">Nome:</label>
+                        <input type="text" placeholder="Seu nome" name="" id="">
                     </div>
                     <div class="campo">
-                        <label for="">Senha</label>
+                        <label for="">Email:</label>
+                        <input type="email" placeholder="meuemail@provedor.com" name="" id="">
+                    </div>
+                    <div class="campo">
+                        <label for="">Senha:</label>
+                        <input type="password" placeholder="*****">
+                    </div>
+                    <div class="campo">
+                        <label for="">Confirmação da Senha:</label>
                         <input type="password" placeholder="*****">
                     </div>
                     <button>Entrar</button>

@@ -124,6 +124,10 @@ body {
     width: 300px;
     text-align: center;
 }
+.cartao label{
+    color: palevioletred;
+    font-weight: bold;
+}
 
 .cartao img {
     width: 100px;
@@ -137,6 +141,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: left;
 }
 
 .campo input{
@@ -149,7 +154,7 @@ body {
 .formulario button{
     margin-top: 20px;
     padding: 20px;
-    background-color: palevioletred;
+    background-color: deeppink;
     color: white;
 }
 
@@ -164,3 +169,9 @@ body {
     font-weight: 800;
 
 }
+
+.cartao_cadastro{
+    height: 370px;
+    width: 340px;
+}
+
